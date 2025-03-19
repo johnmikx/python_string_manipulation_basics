@@ -8,10 +8,21 @@
 - **Professor:** Engr. Danilo C. Madrigalejos, Jr.
 
 ## Directory Structure
-*to be updated*
 
 ```
 python_string_manipulation_basics/
+├── README.md
+├── convert_to_lowercase.py
+├── convert_to_uppercase.py
+├── count_characters.py
+├── count_words.py
+├── gistfile5_batch5.txt
+├── pascal_case_conversion.py
+├── proper_case_conversion.py
+├── remove_leading_spaces.py
+├── reverse_casing.py
+├── six_digit_format.py
+└── snake_case_conversion.py
 ```
 
 ## About the Author
