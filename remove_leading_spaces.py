@@ -47,16 +47,16 @@ print(f"Output: {result}")
 # Phase 5: Testing
 
 # Test Case 1:
-# - Input:     Juan Dela Cruz
-# - Expected Output: Juan Dela Cruz
+# - Input: "    Juan Dela Cruz"
+# - Expected Output: "Juan Dela Cruz"
 
 # Test Case 2:
-# - Input: Juan Dela Cruz
-# - Expected Output: Juan Dela Cruz
+# - Input: "Juan Dela Cruz"
+# - Expected Output: "Juan Dela Cruz"
 
 # Test Case 3:
-# - Input:         John Mike Asuncion
-# - Expected Output: John Mike Asuncion
+# - Input: "        John Mike P. Asuncion"
+# - Expected Output: "John Mike P. Asuncion"
 
 # ------------------------------------------------------------------
 
