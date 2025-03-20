@@ -36,7 +36,7 @@
 
 # Phase 4: Implementation/Development
 
-# Program to remove leading spaces from user input
+# Program to convert user input to lowercase
 full_name = input("Enter your full name: ")
 result = full_name.lower()
 print(f"Output: {result}")
