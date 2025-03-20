@@ -36,7 +36,7 @@
 
 # Phase 4: Implementation/Development
 
-# Program to count the number of words in user input
+# Program to count the number of characters in user input
 full_name = input("Enter your full name: ")
 char_count = len(full_name)
 print(f"Output: {char_count}")
@@ -54,8 +54,8 @@ print(f"Output: {char_count}")
 # - Expected Output: 11
 
 # Test Case 3:
-# - Input: "John Mike Asuncion"
-# - Expected Output: 18
+# - Input: "  John Mike Asuncion"
+# - Expected Output: 20
 
 # ------------------------------------------------------------------
 
