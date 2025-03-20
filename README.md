@@ -1,4 +1,4 @@
-[description, *to be updated*]
+A collection of 10 basic Python exercises focused on string manipulation techniques including formatting, case conversion, counting, and pattern transformation.
 
 ### Course Information
 
