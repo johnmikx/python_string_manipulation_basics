@@ -48,15 +48,15 @@ print(f"Output: {formatted_number}")
 
 # Test Case 1:
 # - Input: 143
-# - Expected Output: "000143"
+# - Expected Output: 000143
 
 # Test Case 2:
 # - Input: 0
-# - Expected Output: "000000"
+# - Expected Output: 000000
 
 # Test Case 3:
 # - Input: 1000
-# - Expected Output: "001000"
+# - Expected Output: 001000
 
 # ------------------------------------------------------------------
 
