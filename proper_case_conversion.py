@@ -37,7 +37,7 @@
 # Phase 4: Implementation/Development
 
 # Program to convert user input to proper case (title case)
-full_name = input("Enter your full name in incorrect using: ")
+full_name = input("Enter your full name in incorrect casing: ")
 result = full_name.title()
 print(f"Output: {result}")
 

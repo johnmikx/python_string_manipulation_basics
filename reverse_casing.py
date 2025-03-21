@@ -41,7 +41,7 @@
 # Phase 4: Implementation/Development
 
 # Program to reverse the case of each character in user input
-full_name = input("Enter your full name in incorrect using: ")
+full_name = input("Enter your full name in incorrect casing: ")
 result = ""
 
 for char in full_name:

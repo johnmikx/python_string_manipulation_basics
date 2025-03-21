@@ -36,7 +36,7 @@
 # Phase 4: Implementation/Development
 
 # Program to convert user input to Pascal case
-full_name = input("Enter your full name in incorrect using: ")
+full_name = input("Enter your full name in incorrect casing: ")
 words = full_name.title().split()
 result = "".join(words)
 print(f"Output: {result}")
