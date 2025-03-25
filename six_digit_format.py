@@ -39,7 +39,7 @@
 
 # Program to format a number as a 6-digit string with leading zeros
 number = int(input("Enter a number (0-1000): "))
-formatted_number = f"{number:06d}"
+formatted_number = str(number).zfill(6)
 print(f"Output: {formatted_number}")
 
 # ------------------------------------------------------------------
