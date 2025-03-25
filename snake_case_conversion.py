@@ -28,7 +28,7 @@
 
 # - Algorithm (input, process, output):
 #     1. Input user's full name in incorrect casing
-#     2. Convert to lowercase, split by spaces, join with underscores
+#     2. Convert to lowercase and replace spaces with underscores
 #     3. Display full name in snake case format
 
 # ------------------------------------------------------------------
@@ -37,8 +37,7 @@
 
 # Program to convert user input to snake case
 full_name = input("Enter your full name in incorrect casing: ")
-words = full_name.lower().split()
-result = "_".join(words)
+result = full_name.lower().replace(" ", "_")
 print(f"Output: {result}")
 
 # ------------------------------------------------------------------

@@ -28,7 +28,7 @@
 
 # - Algorithm (input, process, output):
 #     1. Input user's full name in incorrect casing
-#     2. Convert to title case, split by spaces, join without spaces
+#     2. Convert to title case and replace spaces with no spaces
 #     3. Display full name in Pascal case format
 
 # ------------------------------------------------------------------
@@ -37,8 +37,7 @@
 
 # Program to convert user input to Pascal case
 full_name = input("Enter your full name in incorrect casing: ")
-words = full_name.title().split()
-result = "".join(words)
+result = full_name.title().replace(" ", "")
 print(f"Output: {result}")
 
 # ------------------------------------------------------------------
