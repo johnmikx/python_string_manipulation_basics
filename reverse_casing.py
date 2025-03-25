@@ -42,14 +42,7 @@
 
 # Program to reverse the case of each character in user input
 full_name = input("Enter your full name in incorrect casing: ")
-result = ""
-
-for char in full_name:
-    if char.isupper():
-        result += char.lower()
-    else:
-        result += char.upper()
-
+result = full_name.swapcase()
 print(f"Output: {result}")
 
 # ------------------------------------------------------------------
